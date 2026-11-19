@@ -136,3 +136,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .hero .sub { max-width: 38ch; }
 /* while Chrome is not published, Edge is the main button */
 .stores:not(:has(.store-chrome:not([hidden]))) .store-edge { background: var(--grad); color: #fff; box-shadow: 0 12px 28px -12px rgba(109, 93, 246, .8); }
+/* tighter feature rows: less side-to-side travel */
+.row { width: min(1000px, calc(100% - 40px)); gap: 48px; grid-template-columns: 1fr 1.35fr; padding-top: 96px; }
+.row.flip { grid-template-columns: 1.35fr 1fr; }
+.row.flip .txt { justify-self: start; }
+@media (max-width: 860px) { .row, .row.flip { grid-template-columns: 1fr; gap: 24px; padding-top: 72px; } }
