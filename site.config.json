@@ -1,0 +1,17 @@
+{
+  "_readme": "Edítalo en GitHub (lápiz ✎) y guarda: la web lo lee sola. Pega los enlaces de tus fichas cuando estén publicadas. Pon también tu nombre (ownerName) y tu email (contactEmail): salen en la política de privacidad y en el pie.",
+  "stores": {
+    "edge": "PEGA_AQUI",
+    "chrome": "PEGA_AQUI",
+    "firefox": "PEGA_AQUI"
+  },
+  "siteUrl": "https://chausillo.github.io/pisoradar/",
+  "ownerName": "Alejandro Alvarez",
+  "contactEmail": "alejandro.chaus@gmail.com",
+  "prices": {
+    "monthly": 9.99,
+    "quarterly": 19.99,
+    "annual": 49.99,
+    "currency": "EUR"
+  }
+}
